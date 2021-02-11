@@ -34,6 +34,7 @@ export default {
 <style lang="scss">
 @import 'node_modules/reveal.js/css/reveal.scss';
 @import 'node_modules/reveal.js/css/theme/source/blood.scss';
+@import './styles/theme.scss';
 
 #app {
 	font-family: 'Avenir', Helvetica, Arial, sans-serif;

@@ -1,0 +1,50 @@
+$primary: #845ec2;
+$secondary: #ffc75f;
+$secondary-dark: darken($secondary, 20%);
+
+.reveal {
+	font-size: 36px;
+	background-color: #1a1626;
+	.controls {
+		button {
+			--tw-text-opacity: 1;
+			color: rgba(237, 100, 166, var(--tw-text-opacity));
+		}
+	}
+	.progress {
+		span {
+			--tw-text-opacity: 1;
+			color: rgba(237, 100, 166, var(--tw-text-opacity));
+		}
+		height: 6px;
+	}
+	a {
+		--tw-text-opacity: 1;
+		color: rgba(237, 100, 166, var(--tw-text-opacity));
+	}
+	h1 {
+		font-family: Inter, sans-serif !important;
+	}
+	iframe {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	img {
+		display: inline-block;
+	}
+}
+h2 {
+	font-family: Inter, sans-serif !important;
+}
+h3 {
+	font-family: Inter, sans-serif !important;
+}
+h4 {
+	font-family: Inter, sans-serif !important;
+}
+p {
+	font-family: Inter, sans-serif !important;
+}
+ul {
+	font-family: Inter, sans-serif !important;
+}
