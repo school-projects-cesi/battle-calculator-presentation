@@ -1,0 +1,24 @@
+%%{init: {'theme': 'dark', 'themeVariables': { 'primaryBorderColor': '#8E5CC5'}}}%%
+graph TD
+	Level --> Opérations
+
+	Opérations --> OpPlus[Opération +]
+	Opérations --> OpMinus[Opération -]
+	Opérations --> OpMultiple[Opération *]
+	Opérations --> OpDivide["Opération /"]
+
+	OpPlus --> Pourcentage_1[Pourcentage]
+	OpPlus --> Value1_1[Valeur 1]
+	OpPlus --> Value2_1[Valeur 2]
+	OpPlus --> Inversable_1[Inversable]
+
+	Value1_1 --> Min1(Min)
+	Value1_1 --> Max1(Max)
+
+	Value2_1[Valeur 2] --> Min2(Min)
+	Value2_1[Valeur 2] --> Max2(Max)
+
+	OpMinus --> Pourcentage_2
+	OpMinus --> Value1_2[Valeur 1]
+	OpMinus --> Value2_2[Valeur 2]
+	OpMinus --> Inversable_2[Inversable]

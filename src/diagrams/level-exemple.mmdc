@@ -1,0 +1,25 @@
+%%{init: {'theme': 'dark', 'themeVariables': { 'primaryBorderColor': '#8E5CC5'}}}%%
+stateDiagram-v2
+	Level: Level 1
+    OpPlus: Opération +
+    OpMinus: Operation -
+	Value1_1: Valeur = 15
+	Value2_1: Valeur = 40
+	Pourcentage_1: 85%
+	Value1_2: Valeur = 10
+	Value2_2: Valeur = 25
+	Pourcentage_2: 15%
+
+    [*] --> Level
+	Level --> Opérations
+
+	Opérations --> OpPlus
+	Opérations --> OpMinus
+
+	OpPlus --> Value1_1
+	OpPlus --> Value2_1
+	OpPlus --> Pourcentage_1
+
+	OpMinus --> Value1_2
+	OpMinus --> Value2_2
+	OpMinus --> Pourcentage_2

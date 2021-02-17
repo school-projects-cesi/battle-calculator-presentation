@@ -1,0 +1,20 @@
+%%{init: {'theme': 'dark', 'themeVariables': { 'primaryBorderColor': '#8E5CC5'}}}%%
+stateDiagram-v2
+    Value1: Chiffre 1
+    Value2: Chiffre 2
+    Min1: Min
+    Max1: Max
+    Min2: Min
+    Max2: Max
+
+    [*] --> Opération
+
+	Opération --> Pourcentage
+	Opération --> Value1
+	Opération --> Value2
+
+	Value1 --> Min1
+	Value1 --> Max1
+
+	Value2 --> Min2
+	Value2 --> Max2

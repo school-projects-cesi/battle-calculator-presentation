@@ -1,0 +1,14 @@
+%%{init: {'theme': 'dark', 'themeVariables': { 'primaryBorderColor': '#8E5CC5'}}}%%
+stateDiagram-v2
+    OpPlus: Opération +
+    OpMinus: Operation -
+    OpMultiple: Operation *
+    OpDivide: Operation /
+
+    [*] --> Level
+	Level --> Opérations
+
+	Opérations --> OpPlus
+	Opérations --> OpMinus
+	Opérations --> OpMultiple
+	Opérations --> OpDivide
