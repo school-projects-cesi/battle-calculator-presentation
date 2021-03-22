@@ -11,6 +11,10 @@
 				<FrontEndTechnologies />
 				<FrontEndTools />
 				<FrontEndLibraries />
+				<Support />
+				<Mcd />
+				<PilotageProject />
+				<DeveloppementCss />
 				<Outro />
 			</div>
 		</div>
@@ -31,6 +35,10 @@ import BackEndLibraries from './views/04 03-OutilsTechnologies-BackEnd-Libraries
 import FrontEndTechnologies from './views/04 04-OutilsTechnologies-FrontEnd-Technologies.vue'
 import FrontEndTools from './views/04 05-OutilsTechnologies-FrontEnd-Tools.vue'
 import FrontEndLibraries from './views/04 06-OutilsTechnologies-FrontEnd-Libraries.vue'
+import Support from './views/04 07-OutilsTechnologies-Support'
+import Mcd from './views/05-Mcd.vue'
+import PilotageProject from './views/06 01-Pilotage-Project.vue'
+import DeveloppementCss from './views/07 01-Developpement-Css.vue'
 import Outro from './views/12-Outro.vue'
 
 export default {
@@ -45,6 +53,10 @@ export default {
 		FrontEndTechnologies,
 		FrontEndTools,
 		FrontEndLibraries,
+		Support,
+		Mcd,
+		PilotageProject,
+		DeveloppementCss,
 		Outro
 	},
 	mounted() {

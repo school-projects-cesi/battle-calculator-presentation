@@ -4,7 +4,7 @@
 		<table>
 			<tbody>
 				<tr>
-					<td>Répondre a un maximum d'équations pendant un laspe de temps</td>
+					<td>Répondre à un maximum d'équations pendant un laspe de temps</td>
 					<td>
 						<icon type="clock" size="100px"></icon>
 					</td>
