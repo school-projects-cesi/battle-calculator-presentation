@@ -8,9 +8,3 @@
 		</ol>
 	</section>
 </template>
-
-<script>
-export default {
-	name: 'Sommaire'
-}
-</script>
