@@ -14,6 +14,9 @@
 				<Support />
 				<Mcd />
 				<PilotageProject />
+                <PilotageIssueName />
+                <PilotageIssueHistory />
+                <PilotageIssuePullRequest />
 				<DeveloppementCss />
 				<Outro />
 			</div>
@@ -38,6 +41,9 @@ import FrontEndLibraries from './views/04 06-OutilsTechnologies-FrontEnd-Librari
 import Support from './views/04 07-OutilsTechnologies-Support'
 import Mcd from './views/05-Mcd.vue'
 import PilotageProject from './views/06 01-Pilotage-Project.vue'
+import PilotageIssueName from './views/06 02-Pilotage-Issue-Name.vue'
+import PilotageIssueHistory from './views/06 03-Pilotage-Issue-History.vue'
+import PilotageIssuePullRequest from './views/06 04-Pilotage-Issue-PullRequest.vue'
 import DeveloppementCss from './views/07 01-Developpement-Css.vue'
 import Outro from './views/12-Outro.vue'
 
@@ -56,6 +62,9 @@ export default {
 		Support,
 		Mcd,
 		PilotageProject,
+        PilotageIssueName,
+        PilotageIssueHistory,
+        PilotageIssuePullRequest,
 		DeveloppementCss,
 		Outro
 	},
