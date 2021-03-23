@@ -14,9 +14,9 @@
 				<Support />
 				<Mcd />
 				<PilotageProject />
-                <PilotageIssueName />
-                <PilotageIssueHistory />
-                <PilotageIssuePullRequest />
+				<PilotageIssueName />
+				<PilotageIssueHistory />
+				<PilotageIssuePullRequest />
 				<DeveloppementCss />
 				<Outro />
 			</div>
@@ -62,16 +62,17 @@ export default {
 		Support,
 		Mcd,
 		PilotageProject,
-        PilotageIssueName,
-        PilotageIssueHistory,
-        PilotageIssuePullRequest,
+		PilotageIssueName,
+		PilotageIssueHistory,
+		PilotageIssuePullRequest,
 		DeveloppementCss,
 		Outro
 	},
 	mounted() {
 		Reveal.initialize({
 			plugins: [Markdown, Highlight],
-			hash: true
+			hash: true,
+			viewDistance: 10
 		})
 	}
 }
