@@ -33,7 +33,7 @@
 	<body>
 		<div id="dados"></div>
 
-		<script src="/hammer.js"></script>
+		<script src="./node_modules/hammerjs/hammer.min.js"></script>
 		<script src="/socket.io/socket.io.js"></script>
 		<script>
 			var iourl =
@@ -92,8 +92,6 @@
 					socket.emit('slide', { tipo: 3 })
 					e.preventDefault()
 				})
-
-			window.requestAnimationFrame(envio)
 		</script>
 	</body>
 </html>
