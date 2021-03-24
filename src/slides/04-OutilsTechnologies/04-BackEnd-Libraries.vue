@@ -1,7 +1,7 @@
 <template>
 	<section>
-		<small>Outils et Technologies</small>
-		<h2>Back-end</h2>
+		<small>Outils et Technologies - Back-end</small>
+		<h2>Bibliothèques</h2>
 		<div style="display: flex">
 			<span
 				style="flex: 1; display: inline-flex; flex-direction: column; justify-content: center;align-items: center;"

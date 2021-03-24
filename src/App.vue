@@ -5,12 +5,18 @@
 				<Intro />
 				<Sommaire />
 				<Objectifs />
-				<BackEndTechnologies />
-				<BackEndTools />
-				<BackEndLibraries />
-				<FrontEndTechnologies />
-				<FrontEndTools />
-				<FrontEndLibraries />
+				<section>
+					<BackEnd />
+					<BackEndTechnologies />
+					<BackEndTools />
+					<BackEndLibraries />
+				</section>
+				<section>
+					<FrontEnd />
+					<FrontEndTechnologies />
+					<FrontEndTools />
+					<FrontEndLibraries />
+				</section>
 				<Support />
 				<Mcd />
 				<PilotageProject />
@@ -41,13 +47,17 @@ import Highlight from 'reveal.js/plugin/highlight/highlight'
 import Intro from './slides/01-Intro/01-Intro.vue'
 import Sommaire from './slides/02-Sommaire/01-Sommaire.vue'
 import Objectifs from './slides/03-Objectifs/01-Objectifs.vue'
-import BackEndTechnologies from './slides/04-OutilsTechnologies/01-BackEnd-Technologies.vue'
-import BackEndTools from './slides/04-OutilsTechnologies/02-BackEnd-Tools.vue'
-import BackEndLibraries from './slides/04-OutilsTechnologies/03-BackEnd-Libraries.vue'
-import FrontEndTechnologies from './slides/04-OutilsTechnologies/04-FrontEnd-Technologies.vue'
-import FrontEndTools from './slides/04-OutilsTechnologies/05-FrontEnd-Tools.vue'
-import FrontEndLibraries from './slides/04-OutilsTechnologies/06-FrontEnd-Libraries.vue'
-import Support from './slides/04-OutilsTechnologies/07-Support'
+
+import BackEnd from './slides/04-OutilsTechnologies/01-BackEnd.vue'
+import BackEndTechnologies from './slides/04-OutilsTechnologies/02-BackEnd-Technologies.vue'
+import BackEndTools from './slides/04-OutilsTechnologies/03-BackEnd-Tools.vue'
+import BackEndLibraries from './slides/04-OutilsTechnologies/04-BackEnd-Libraries.vue'
+import FrontEnd from './slides/04-OutilsTechnologies/05-FrontEnd.vue'
+import FrontEndTechnologies from './slides/04-OutilsTechnologies/06-FrontEnd-Technologies.vue'
+import FrontEndTools from './slides/04-OutilsTechnologies/07-FrontEnd-Tools.vue'
+import FrontEndLibraries from './slides/04-OutilsTechnologies/08-FrontEnd-Libraries.vue'
+import Support from './slides/04-OutilsTechnologies/09-Support'
+
 import Mcd from './slides/05-Mcd/01-Mcd.vue'
 import PilotageProject from './slides/06-Pilotage/01-Project.vue'
 import PilotageIssueName from './slides/06-Pilotage/02-Issue-Name.vue'
@@ -70,9 +80,11 @@ export default {
 		Intro,
 		Sommaire,
 		Objectifs,
+		BackEnd,
 		BackEndTechnologies,
 		BackEndTools,
 		BackEndLibraries,
+		FrontEnd,
 		FrontEndTechnologies,
 		FrontEndTools,
 		FrontEndLibraries,
