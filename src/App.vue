@@ -124,8 +124,14 @@ export default {
 			plugins: [Markdown, Highlight],
 			hash: true,
 			viewDistance: 10,
-			slideNumber: 'c/t'
+			slideNumber: 'c/t',
+			dependencies: [
+				{ src: 'http://localhost:3001/socket.io/socket.io.js', async: true },
+				{ src: 'http://localhost:3001/remote.js', async: true }
+			]
 		})
+
+		window.Reveal = Reveal
 	}
 }
 </script>
