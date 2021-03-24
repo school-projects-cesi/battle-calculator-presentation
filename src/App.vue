@@ -5,7 +5,7 @@
 				<Intro />
 				<Sommaire />
 				<Objectifs />
-                <!-- 04-OutilsTechnologie -->
+				<!-- 04-OutilsTechnologie -->
 				<BackEndTechnologies />
 				<BackEndTools />
 				<BackEndLibraries />
@@ -13,15 +13,18 @@
 				<FrontEndTools />
 				<FrontEndLibraries />
 				<Support />
-                <!-- 05-Pilotage -->
+				<!-- 05-Pilotage -->
 				<PilotageProject />
 				<PilotageIssueName />
 				<PilotageIssueHistory />
 				<PilotageIssuePullRequest />
-                <!-- 06-Developpement -->
-                <Mcd />
+				<!-- 06-Developpement -->
+				<Mcd />
+				<DeveloppementCodeFront />
+				<DeveloppementCodeBack />
 				<DeveloppementCss />
-                <!-- 07-Conclusion -->
+				<DeveloppementVideo />
+				<!-- 07-Conclusion -->
 				<ConclusionLimites />
 				<ConclusionLimitesSecurity />
 				<ConclusionLimitesSecurityFin />
@@ -46,17 +49,21 @@ import FrontEndTechnologies from './slides/04-OutilsTechnologies/04-FrontEnd-Tec
 import FrontEndTools from './slides/04-OutilsTechnologies/05-FrontEnd-Tools.vue'
 import FrontEndLibraries from './slides/04-OutilsTechnologies/06-FrontEnd-Libraries.vue'
 import Support from './slides/04-OutilsTechnologies/07-Support'
-import Mcd from './slides/07-Developpement/01-Mcd.vue'
-import PilotageProject from './slides/06-Pilotage/01-Project.vue'
-import PilotageIssueName from './slides/06-Pilotage/02-Issue-Name.vue'
-import PilotageIssueHistory from './slides/06-Pilotage/03-Issue-History.vue'
-import PilotageIssuePullRequest from './slides/06-Pilotage/04-Issue-PullRequest.vue'
-import DeveloppementCss from './slides/07-Developpement/01-Css.vue'
-import ConclusionLimites from './slides/08-Conclusion/04 01-Limites.vue'
-import ConclusionLimitesSecurity from './slides/08-Conclusion/04 02-Limites-Security.vue'
-import ConclusionLimitesSecurityFin from './slides/08-Conclusion/04 03-Limites-Security.vue'
-import Outro from './slides/12-Outro/01-Outro.vue'
+import Mcd from './slides/06-Developpement/01-Mcd.vue'
+import PilotageProject from './slides/05-Pilotage/01-Project.vue'
+import PilotageIssueName from './slides/05-Pilotage/02-Issue-Name.vue'
+import PilotageIssueHistory from './slides/05-Pilotage/03-Issue-History.vue'
+import PilotageIssuePullRequest from './slides/05-Pilotage/04-Issue-PullRequest.vue'
+import DeveloppementCodeFront from './slides/06-Developpement/02-ExtraitCodeFront.vue'
+import DeveloppementCodeBack from './slides/06-Developpement/03-ExtraitCodeBack.vue'
+import DeveloppementCss from './slides/06-Developpement/04-Css.vue'
+import DeveloppementVideo from './slides/06-Developpement/05-Video.vue'
+import ConclusionLimites from './slides/07-Conclusion/04 01-Limites.vue'
+import ConclusionLimitesSecurity from './slides/07-Conclusion/04 02-Limites-Security.vue'
+import ConclusionLimitesSecurityFin from './slides/07-Conclusion/04 03-Limites-Security.vue'
+import Outro from './slides/08-Outro/01-Outro.vue'
 
+// main
 export default {
 	name: 'app',
 	components: {
@@ -75,7 +82,10 @@ export default {
 		PilotageIssueName,
 		PilotageIssueHistory,
 		PilotageIssuePullRequest,
+		DeveloppementCodeFront,
+		DeveloppementCodeBack,
 		DeveloppementCss,
+		DeveloppementVideo,
 		ConclusionLimites,
 		ConclusionLimitesSecurity,
 		ConclusionLimitesSecurityFin,
