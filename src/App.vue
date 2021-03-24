@@ -17,13 +17,20 @@
 				<FrontEndLibraries />
 			</section>
 			<Support />
+			<!-- 05-Pilotage -->
+			<section>
+				<PilotageProject />
+				<PilotageIssueHistory />
+				<PilotageIssueName />
+				<PilotageIssuePullRequest />
+			</section>
+			<!-- 06-Developpement -->
 			<Mcd />
-			<PilotageProject />
-			<PilotageIssueName />
-			<PilotageIssueHistory />
-			<PilotageIssuePullRequest />
+			<DeveloppementCodeFront />
+			<DeveloppementCodeBack />
 			<DeveloppementCss />
 			<DeveloppementVideo />
+			<!-- 07-Conclusion -->
 			<ConclusionAtouts />
 			<ConclusionDefauts />
 			<ConclusionExtensions />
@@ -45,7 +52,6 @@ import Highlight from 'reveal.js/plugin/highlight/highlight'
 import Intro from './slides/01-Intro/01-Intro.vue'
 import Sommaire from './slides/02-Sommaire/01-Sommaire.vue'
 import Objectifs from './slides/03-Objectifs/01-Objectifs.vue'
-
 import BackEnd from './slides/04-OutilsTechnologies/01-BackEnd.vue'
 import BackEndTechnologies from './slides/04-OutilsTechnologies/02-BackEnd-Technologies.vue'
 import BackEndTools from './slides/04-OutilsTechnologies/03-BackEnd-Tools.vue'
@@ -55,21 +61,22 @@ import FrontEndTechnologies from './slides/04-OutilsTechnologies/06-FrontEnd-Tec
 import FrontEndTools from './slides/04-OutilsTechnologies/07-FrontEnd-Tools.vue'
 import FrontEndLibraries from './slides/04-OutilsTechnologies/08-FrontEnd-Libraries.vue'
 import Support from './slides/04-OutilsTechnologies/09-Support'
-
-import Mcd from './slides/05-Mcd/01-Mcd.vue'
-import PilotageProject from './slides/06-Pilotage/01-Project.vue'
-import PilotageIssueName from './slides/06-Pilotage/02-Issue-Name.vue'
-import PilotageIssueHistory from './slides/06-Pilotage/03-Issue-History.vue'
-import PilotageIssuePullRequest from './slides/06-Pilotage/04-Issue-PullRequest.vue'
-import DeveloppementCss from './slides/07-Developpement/01-Css.vue'
-import DeveloppementVideo from './slides/07-Developpement/10-Video.vue'
-import ConclusionAtouts from './slides/08-Conclusion/01 01-Atouts.vue'
-import ConclusionDefauts from './slides/08-Conclusion/02 01-Defauts.vue'
-import ConclusionExtensions from './slides/08-Conclusion/03 01-Extensions.vue'
-import ConclusionLimites from './slides/08-Conclusion/04 01-Limites.vue'
-import ConclusionLimitesSecurity from './slides/08-Conclusion/04 02-Limites-Security.vue'
-import ConclusionLimitesSecurityFin from './slides/08-Conclusion/04 03-Limites-Security.vue'
-import Outro from './slides/12-Outro/01-Outro.vue'
+import PilotageProject from './slides/05-Pilotage/01-Project.vue'
+import PilotageIssueName from './slides/05-Pilotage/02-Issue-Name.vue'
+import PilotageIssueHistory from './slides/05-Pilotage/03-Issue-History.vue'
+import PilotageIssuePullRequest from './slides/05-Pilotage/04-Issue-PullRequest.vue'
+import Mcd from './slides/06-Developpement/01-Mcd.vue'
+import DeveloppementCodeFront from './slides/06-Developpement/02-ExtraitCodeFront.vue'
+import DeveloppementCodeBack from './slides/06-Developpement/03-ExtraitCodeBack.vue'
+import DeveloppementCss from './slides/06-Developpement/04-Css.vue'
+import DeveloppementVideo from './slides/06-Developpement/05-Video.vue'
+import ConclusionAtouts from './slides/07-Conclusion/01 01-Atouts.vue'
+import ConclusionDefauts from './slides/07-Conclusion/02 01-Defauts.vue'
+import ConclusionExtensions from './slides/07-Conclusion/03 01-Extensions.vue'
+import ConclusionLimites from './slides/07-Conclusion/04 01-Limites.vue'
+import ConclusionLimitesSecurity from './slides/07-Conclusion/04 02-Limites-Security.vue'
+import ConclusionLimitesSecurityFin from './slides/07-Conclusion/04 03-Limites-SecurityFin.vue'
+import Outro from './slides/08-Outro/01-Outro.vue'
 
 // main
 export default {
@@ -92,6 +99,8 @@ export default {
 		PilotageIssueName,
 		PilotageIssueHistory,
 		PilotageIssuePullRequest,
+		DeveloppementCodeFront,
+		DeveloppementCodeBack,
 		DeveloppementCss,
 		DeveloppementVideo,
 		ConclusionAtouts,
