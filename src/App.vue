@@ -1,7 +1,10 @@
 <template>
 	<div class="reveal">
 		<div class="slides">
-			<Intro />
+			<section>
+				<Blank />
+				<Intro />
+			</section>
 			<Sommaire />
 			<Objectifs />
 			<section>
@@ -29,6 +32,7 @@
 			<DeveloppementCodeFront />
 			<DeveloppementCodeBack />
 			<DeveloppementCss />
+			<DeveloppementPresentation />
 			<DeveloppementVideo />
 			<!-- 07-Conclusion -->
 			<ConclusionAtouts />
@@ -49,6 +53,7 @@ import Reveal from 'reveal.js'
 import Markdown from 'reveal.js/plugin/markdown/markdown'
 import Highlight from 'reveal.js/plugin/highlight/highlight'
 // slides
+import Blank from './slides/01-Intro/00-Blank.vue'
 import Intro from './slides/01-Intro/01-Intro.vue'
 import Sommaire from './slides/02-Sommaire/01-Sommaire.vue'
 import Objectifs from './slides/03-Objectifs/01-Objectifs.vue'
@@ -69,7 +74,8 @@ import Mcd from './slides/06-Developpement/01-Mcd.vue'
 import DeveloppementCodeFront from './slides/06-Developpement/02-ExtraitCodeFront.vue'
 import DeveloppementCodeBack from './slides/06-Developpement/03-ExtraitCodeBack.vue'
 import DeveloppementCss from './slides/06-Developpement/04-Css.vue'
-import DeveloppementVideo from './slides/06-Developpement/05-Video.vue'
+import DeveloppementPresentation from './slides/06-Developpement/05-Presentation.vue'
+import DeveloppementVideo from './slides/06-Developpement/06-Video.vue'
 import ConclusionAtouts from './slides/07-Conclusion/01 01-Atouts.vue'
 import ConclusionDefauts from './slides/07-Conclusion/02 01-Defauts.vue'
 import ConclusionExtensions from './slides/07-Conclusion/03 01-Extensions.vue'
@@ -82,6 +88,7 @@ import Outro from './slides/08-Outro/01-Outro.vue'
 export default {
 	name: 'app',
 	components: {
+		Blank,
 		Intro,
 		Sommaire,
 		Objectifs,
@@ -102,6 +109,7 @@ export default {
 		DeveloppementCodeFront,
 		DeveloppementCodeBack,
 		DeveloppementCss,
+		DeveloppementPresentation,
 		DeveloppementVideo,
 		ConclusionAtouts,
 		ConclusionDefauts,
