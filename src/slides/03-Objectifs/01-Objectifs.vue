@@ -4,21 +4,25 @@
 		<table>
 			<tbody>
 				<tr>
-					<td>Répondre à un maximum d'équations pendant un laspe de temps</td>
+					<td style="width: 100%;">
+						Répondre à un maximum d'équations pendant un laspe de temps
+					</td>
 					<td>
-						<icon type="clock" size="70px" fullWidth></icon>
+						<icon type="clock" size="70px"></icon>
 					</td>
 				</tr>
 				<tr>
-					<td>Pouvoir selectionner un niveau de difficulté en fonction de son niveau</td>
+					<td style="width: 100%;">
+						Pouvoir selectionner un niveau de difficulté en fonction de son niveau
+					</td>
 					<td>
-						<icon type="bar-chart" size="70px" fullWidth></icon>
+						<icon type="bar-chart" size="70px"></icon>
 					</td>
 				</tr>
 				<tr>
-					<td>Pouvoir se comparer aux meilleurs joueurs</td>
+					<td style="width: 100%;">Pouvoir se comparer aux meilleurs joueurs</td>
 					<td>
-						<icon type="star" size="70px" fullWidth></icon>
+						<icon type="star" size="70px"></icon>
 					</td>
 				</tr>
 			</tbody>

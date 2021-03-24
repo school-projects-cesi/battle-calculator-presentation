@@ -19,9 +19,14 @@
 				<PilotageIssuePullRequest />
 				<DeveloppementCss />
 				<DeveloppementVideo />
-				<ConclusionLimites />
-				<ConclusionLimitesSecurity />
-				<ConclusionLimitesSecurityFin />
+				<ConclusionAtouts />
+				<ConclusionDefauts />
+				<ConclusionExtensions />
+				<section>
+					<ConclusionLimites />
+					<ConclusionLimitesSecurity />
+					<ConclusionLimitesSecurityFin />
+				</section>
 				<Outro />
 			</div>
 		</div>
@@ -50,6 +55,9 @@ import PilotageIssueHistory from './slides/06-Pilotage/03-Issue-History.vue'
 import PilotageIssuePullRequest from './slides/06-Pilotage/04-Issue-PullRequest.vue'
 import DeveloppementCss from './slides/07-Developpement/01-Css.vue'
 import DeveloppementVideo from './slides/07-Developpement/10-Video.vue'
+import ConclusionAtouts from './slides/08-Conclusion/01 01-Atouts.vue'
+import ConclusionDefauts from './slides/08-Conclusion/02 01-Defauts.vue'
+import ConclusionExtensions from './slides/08-Conclusion/03 01-Extensions.vue'
 import ConclusionLimites from './slides/08-Conclusion/04 01-Limites.vue'
 import ConclusionLimitesSecurity from './slides/08-Conclusion/04 02-Limites-Security.vue'
 import ConclusionLimitesSecurityFin from './slides/08-Conclusion/04 03-Limites-Security.vue'
@@ -76,6 +84,9 @@ export default {
 		PilotageIssuePullRequest,
 		DeveloppementCss,
 		DeveloppementVideo,
+		ConclusionAtouts,
+		ConclusionDefauts,
+		ConclusionExtensions,
 		ConclusionLimites,
 		ConclusionLimitesSecurity,
 		ConclusionLimitesSecurityFin,
@@ -85,7 +96,8 @@ export default {
 		Reveal.initialize({
 			plugins: [Markdown, Highlight],
 			hash: true,
-			viewDistance: 10
+			viewDistance: 10,
+			slideNumber: 'c/t'
 		})
 	}
 }

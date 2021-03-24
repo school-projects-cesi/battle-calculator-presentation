@@ -5,15 +5,9 @@
 		<table>
 			<tbody>
 				<tr>
-					<td>...</td>
-					<td>
-						<icon style="padding-left: 90px" type="clock" size="70px"></icon>
-					</td>
-				</tr>
-				<tr>
-					<td>Sécurité</td>
-					<td>
-						<icon style="padding-left: 90px" type="lock" size="70px"></icon>
+					<td style="width: 100%;">Sécurité</td>
+					<td style="padding-left: 160px">
+						<icon type="lock" size="70px"></icon>
 					</td>
 				</tr>
 			</tbody>
