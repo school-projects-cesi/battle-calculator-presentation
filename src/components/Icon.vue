@@ -27,6 +27,11 @@ export default {
 			default: 24
 		},
 
+		fullWidth: {
+			type: Boolean,
+			default: false
+		},
+
 		stroke: {
 			type: String,
 			default: 'currentColor'
@@ -76,6 +81,7 @@ export default {
 		const {
 			type,
 			size,
+			fullWidth,
 			icon,
 			animation,
 			animationSpeed,
@@ -96,6 +102,8 @@ export default {
 				[`vue-feather--${animationSpeed}`]: animationSpeed
 			}
 		}
+		if (fullWidth) this.attributes['class']['w-100'] = true
+
 		this.svgAttributes = {
 			...icon.attrs,
 			height: size,
@@ -124,7 +132,10 @@ export default {
 .vue-feather {
 	display: inline-block;
 	overflow: hidden;
-	width: 100%;
+
+	&.w-100 {
+		width: 100% !important;
+	}
 
 	&--spin {
 		animation: vue-feather--spin 2s linear infinite;

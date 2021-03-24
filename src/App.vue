@@ -18,6 +18,9 @@
 				<PilotageIssueHistory />
 				<PilotageIssuePullRequest />
 				<DeveloppementCss />
+				<ConclusionLimites />
+				<ConclusionLimitesSecurity />
+				<ConclusionLimitesSecurityFin />
 				<Outro />
 			</div>
 		</div>
@@ -45,6 +48,9 @@ import PilotageIssueName from './views/06 02-Pilotage-Issue-Name.vue'
 import PilotageIssueHistory from './views/06 03-Pilotage-Issue-History.vue'
 import PilotageIssuePullRequest from './views/06 04-Pilotage-Issue-PullRequest.vue'
 import DeveloppementCss from './views/07 01-Developpement-Css.vue'
+import ConclusionLimites from './views/08 04 01-Conclusion-Limites.vue'
+import ConclusionLimitesSecurity from './views/08 04 02-Conclusion-Limites-Security.vue'
+import ConclusionLimitesSecurityFin from './views/08 04 03-Conclusion-Limites-Security.vue'
 import Outro from './views/12-Outro.vue'
 
 export default {
@@ -66,6 +72,9 @@ export default {
 		PilotageIssueHistory,
 		PilotageIssuePullRequest,
 		DeveloppementCss,
+		ConclusionLimites,
+		ConclusionLimitesSecurity,
+		ConclusionLimitesSecurityFin,
 		Outro
 	},
 	mounted() {
@@ -79,9 +88,12 @@ export default {
 </script>
 
 <style lang="scss">
+// reveal
 @import 'node_modules/reveal.js/css/reveal.scss';
 @import 'node_modules/reveal.js/css/theme/source/blood.scss';
-@import '@/assets/styles/theme.scss';
+@import '@/assets/styles/reveal-theme.scss';
+// hightlight
+@import '@/assets/styles/highlight-theme.scss';
 
 #app {
 	font-family: 'Avenir', Helvetica, Arial, sans-serif;
