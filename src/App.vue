@@ -18,6 +18,7 @@
 				<PilotageIssueHistory />
 				<PilotageIssuePullRequest />
 				<DeveloppementCss />
+				<DeveloppementVideo />
 				<ConclusionLimites />
 				<ConclusionLimitesSecurity />
 				<ConclusionLimitesSecurityFin />
@@ -48,11 +49,13 @@ import PilotageIssueName from './slides/06-Pilotage/02-Issue-Name.vue'
 import PilotageIssueHistory from './slides/06-Pilotage/03-Issue-History.vue'
 import PilotageIssuePullRequest from './slides/06-Pilotage/04-Issue-PullRequest.vue'
 import DeveloppementCss from './slides/07-Developpement/01-Css.vue'
+import DeveloppementVideo from './slides/07-Developpement/10-Video.vue'
 import ConclusionLimites from './slides/08-Conclusion/04 01-Limites.vue'
 import ConclusionLimitesSecurity from './slides/08-Conclusion/04 02-Limites-Security.vue'
 import ConclusionLimitesSecurityFin from './slides/08-Conclusion/04 03-Limites-Security.vue'
 import Outro from './slides/12-Outro/01-Outro.vue'
 
+// main
 export default {
 	name: 'app',
 	components: {
@@ -72,6 +75,7 @@ export default {
 		PilotageIssueHistory,
 		PilotageIssuePullRequest,
 		DeveloppementCss,
+		DeveloppementVideo,
 		ConclusionLimites,
 		ConclusionLimitesSecurity,
 		ConclusionLimitesSecurityFin,
