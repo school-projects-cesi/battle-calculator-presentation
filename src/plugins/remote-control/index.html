@@ -63,21 +63,6 @@
 				}
 			}
 
-			function envio() {
-				var newPositionX = initialA - a
-				var newPositionY = initialB - b
-				if (
-					Math.floor(positionX * 10) !=
-						Math.floor(newPositionX * 10) ||
-					Math.floor(positionY * 10) != Math.floor(newPositionY * 10)
-				) {
-					positionX = newPositionX
-					positionY = newPositionY
-					socket.emit('mover', { x: positionX, y: positionY })
-				}
-				window.requestAnimationFrame(envio)
-			}
-
 			window.addEventListener(
 				'deviceorientation',
 				handleOrientationEvent,
