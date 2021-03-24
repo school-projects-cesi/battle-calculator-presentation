@@ -5,6 +5,7 @@
 				<Intro />
 				<Sommaire />
 				<Objectifs />
+                <!-- 04-OutilsTechnologie -->
 				<BackEndTechnologies />
 				<BackEndTools />
 				<BackEndLibraries />
@@ -12,12 +13,15 @@
 				<FrontEndTools />
 				<FrontEndLibraries />
 				<Support />
-				<Mcd />
+                <!-- 05-Pilotage -->
 				<PilotageProject />
 				<PilotageIssueName />
 				<PilotageIssueHistory />
 				<PilotageIssuePullRequest />
+                <!-- 06-Developpement -->
+                <Mcd />
 				<DeveloppementCss />
+                <!-- 07-Conclusion -->
 				<ConclusionLimites />
 				<ConclusionLimitesSecurity />
 				<ConclusionLimitesSecurityFin />
@@ -42,7 +46,7 @@ import FrontEndTechnologies from './slides/04-OutilsTechnologies/04-FrontEnd-Tec
 import FrontEndTools from './slides/04-OutilsTechnologies/05-FrontEnd-Tools.vue'
 import FrontEndLibraries from './slides/04-OutilsTechnologies/06-FrontEnd-Libraries.vue'
 import Support from './slides/04-OutilsTechnologies/07-Support'
-import Mcd from './slides/05-Mcd/01-Mcd.vue'
+import Mcd from './slides/07-Developpement/01-Mcd.vue'
 import PilotageProject from './slides/06-Pilotage/01-Project.vue'
 import PilotageIssueName from './slides/06-Pilotage/02-Issue-Name.vue'
 import PilotageIssueHistory from './slides/06-Pilotage/03-Issue-History.vue'
