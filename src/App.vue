@@ -1,40 +1,38 @@
 <template>
-	<div id="app">
-		<div class="reveal">
-			<div class="slides">
-				<Intro />
-				<Sommaire />
-				<Objectifs />
-				<section>
-					<BackEnd />
-					<BackEndTechnologies />
-					<BackEndTools />
-					<BackEndLibraries />
-				</section>
-				<section>
-					<FrontEnd />
-					<FrontEndTechnologies />
-					<FrontEndTools />
-					<FrontEndLibraries />
-				</section>
-				<Support />
-				<Mcd />
-				<PilotageProject />
-				<PilotageIssueName />
-				<PilotageIssueHistory />
-				<PilotageIssuePullRequest />
-				<DeveloppementCss />
-				<DeveloppementVideo />
-				<ConclusionAtouts />
-				<ConclusionDefauts />
-				<ConclusionExtensions />
-				<section>
-					<ConclusionLimites />
-					<ConclusionLimitesSecurity />
-					<ConclusionLimitesSecurityFin />
-				</section>
-				<Outro />
-			</div>
+	<div class="reveal">
+		<div class="slides">
+			<Intro />
+			<Sommaire />
+			<Objectifs />
+			<section>
+				<BackEnd />
+				<BackEndTechnologies />
+				<BackEndTools />
+				<BackEndLibraries />
+			</section>
+			<section>
+				<FrontEnd />
+				<FrontEndTechnologies />
+				<FrontEndTools />
+				<FrontEndLibraries />
+			</section>
+			<Support />
+			<Mcd />
+			<PilotageProject />
+			<PilotageIssueName />
+			<PilotageIssueHistory />
+			<PilotageIssuePullRequest />
+			<DeveloppementCss />
+			<DeveloppementVideo />
+			<ConclusionAtouts />
+			<ConclusionDefauts />
+			<ConclusionExtensions />
+			<section>
+				<ConclusionLimites />
+				<ConclusionLimitesSecurity />
+				<ConclusionLimitesSecurityFin />
+			</section>
+			<Outro />
 		</div>
 	</div>
 </template>
