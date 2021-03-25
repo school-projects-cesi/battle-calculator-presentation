@@ -12,8 +12,12 @@
   <summary>Table des matières</summary>
 <!-- TOC depthfrom:2 -->
 
--   [À propos du projet](#%C3%A0-propos-du-projet) - [Dépendances](#d%C3%A9pendances)
--   [Pour commencer](#pour-commencer) - [Prérequis](#pr%C3%A9requis) - [Installation](#installation) - [Démarrer](#d%C3%A9marrer)
+-   [À propos du projet](#%C3%A0-propos-du-projet)
+    - [Dépendances](#d%C3%A9pendances)
+-   [Pour commencer](#pour-commencer)
+    - [Prérequis](#pr%C3%A9requis)
+    - [Installation](#installation)
+    - [Démarrer](#d%C3%A9marrer)
 -   [License](#license)
 -   [Contact](#contact)
 
