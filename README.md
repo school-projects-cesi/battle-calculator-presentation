@@ -30,8 +30,8 @@ Présentation du projet a l'aide de Reveal JS.
 
 [Front-End](https://github.com/school-projects-cesi/battle-calculator-client-web)
 
-[Home](./docs/images/screenshot-home.png)
-[Security](./docs/images/screenshot-home.png)
+![Home](docs/images/screenshot-home.png)
+![Security](docs/images/screenshot-security.png)
 
 ### Dépendances
 
