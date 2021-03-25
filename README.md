@@ -26,7 +26,7 @@ Présentation du projet a l'aide de Reveal JS.
 
 **Sources**
 
-[Back-End](https://github.com/school-projects-cesi/battle-calculator)
+[Back-End](https://github.com/school-projects-cesi/battle-calculator-api)
 
 [Front-End](https://github.com/school-projects-cesi/battle-calculator-client-web)
 
