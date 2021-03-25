@@ -6,7 +6,10 @@
 				<Intro />
 			</section>
 			<Sommaire />
-			<Objectifs />
+			<section>
+				<Objectifs />
+				<Levels />
+			</section>
 			<section>
 				<BackEnd />
 				<BackEndTechnologies />
@@ -60,6 +63,7 @@ import Blank from './slides/01-Intro/00-Blank.vue'
 import Intro from './slides/01-Intro/01-Intro.vue'
 import Sommaire from './slides/02-Sommaire/01-Sommaire.vue'
 import Objectifs from './slides/03-Objectifs/01-Objectifs.vue'
+import Levels from './slides/03-Objectifs/02-Levels.vue'
 import BackEnd from './slides/04-OutilsTechnologies/01-BackEnd.vue'
 import BackEndTechnologies from './slides/04-OutilsTechnologies/02-BackEnd-Technologies.vue'
 import BackEndTools from './slides/04-OutilsTechnologies/03-BackEnd-Tools.vue'
@@ -96,6 +100,7 @@ export default {
 		Intro,
 		Sommaire,
 		Objectifs,
+		Levels,
 		BackEnd,
 		BackEndTechnologies,
 		BackEndTools,
@@ -131,8 +136,14 @@ export default {
 			viewDistance: 10,
 			slideNumber: 'c/t',
 			dependencies: [
-				{ src: 'http://localhost:3001/socket.io/socket.io.js', async: true },
-				{ src: 'http://localhost:3001/remote.js', async: true }
+				{
+					src: 'https://battle-calculator-presentation.glitch.me/socket.io/socket.io.js',
+					async: true
+				},
+				{
+					src: 'https://battle-calculator-presentation.glitch.me/remote.js',
+					async: true
+				}
 			]
 		})
 
