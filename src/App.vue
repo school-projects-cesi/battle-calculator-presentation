@@ -43,7 +43,10 @@
 				<ConclusionLimitesSecurity />
 				<ConclusionLimitesSecurityFin />
 			</section>
-			<Outro />
+			<section>
+				<Outro />
+				<OutroLink />
+			</section>
 		</div>
 	</div>
 </template>
@@ -83,6 +86,7 @@ import ConclusionLimites from './slides/07-Conclusion/04 01-Limites.vue'
 import ConclusionLimitesSecurity from './slides/07-Conclusion/04 02-Limites-Security.vue'
 import ConclusionLimitesSecurityFin from './slides/07-Conclusion/04 03-Limites-SecurityFin.vue'
 import Outro from './slides/08-Outro/01-Outro.vue'
+import OutroLink from './slides/08-Outro/02-Links.vue'
 
 // main
 export default {
@@ -117,15 +121,22 @@ export default {
 		ConclusionLimites,
 		ConclusionLimitesSecurity,
 		ConclusionLimitesSecurityFin,
-		Outro
+		Outro,
+		OutroLink
 	},
 	mounted() {
 		Reveal.initialize({
 			plugins: [Markdown, Highlight],
 			hash: true,
 			viewDistance: 10,
-			slideNumber: 'c/t'
+			slideNumber: 'c/t',
+			dependencies: [
+				{ src: 'http://localhost:3001/socket.io/socket.io.js', async: true },
+				{ src: 'http://localhost:3001/remote.js', async: true }
+			]
 		})
+
+		window.Reveal = Reveal
 	}
 }
 </script>
